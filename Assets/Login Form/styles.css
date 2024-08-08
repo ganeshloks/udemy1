@@ -1,0 +1,141 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin-right: -600px;
+    margin-top: -45px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* .container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+} */
+ /* button{
+        width: 120%;
+        padding: 10px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.4s ease-in-out;
+    }
+    button:hover{
+        font-size: 20px;
+        background-color: green;
+    } */
+     .form-group a{
+        width: 120%;
+        padding: 10px;
+        background-color: #007bff;
+        border: 3px solid black;
+        border-radius: 4px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.4s ease-in-out;
+        text-decoration: none;
+     }
+     .form-group a:hover{
+        font-size: 20px;
+        background-color: green;
+     }
+    .omg img{
+        margin-right: 150px;
+        margin-bottom: -10px;
+        align-items: center;
+        margin-left: -700px;
+    }
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    margin-top: -30px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: bolder;
+    padding-left:-10px;
+}
+
+label {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: black;
+    transition: 0.2s ease all;
+    pointer-events: none; /* Prevent label from interfering with input */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 110%;
+    padding: 10px 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+    height:1.5rem;
+}
+
+input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+    top: -15px; /* Move label up */
+    left: 10px; /* Keep label aligned */
+    font-size: 12px; /* Smaller font size */
+    color: #007bff; /* Change color when focused */
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.form-footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
+.form-footer p{
+    font-size: 20px;
+    
+}
+.ioo img{
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    transition: 0.4s;
+    opacity: 20;
+}
+.ioo img:hover{
+    height: 40px;
+    background-color:gainsboro;
+
+}

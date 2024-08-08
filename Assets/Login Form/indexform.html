@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+</head>
+<body>
+    <div class="omg">
+        <img src="./desktop-illustration-step-1-x1.webp" alt="">
+    </div>
+    <div class="container">
+        <form class="login-form">
+            <h2>Log in to your Udemy <br>
+                account  </h2>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder=" " required minlength="7" maxlength="64">
+                <label for="email">Email</label>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" name="password" placeholder=" " required>
+                <label for="password">Password</label>
+            </div>
+            <div class="form-group">
+                <a href="./Udemy pricing page/indeex.html">Login</a>
+                <!-- <button href="https://www.youtube.com/">Login</button> -->
+            </div>
+            <div class="form-footer">
+                <p><a href="#">Forgot Password?</a></p>
+                <p>Other log in options</p>
+                <div class="ioo">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAcFJREFUSEvV1UuoT1EUBvDfHXiFDExNJEVEDLwiQ24yFMoAI0OUMpABSQqZGl0Tr+7g3iRGSmFgpAghJSZIEQnldZbOrd129v+/u3WLXadTZ317fWt9e+3vDJjgNTDB+f0TBMuxASuxhj9FPcZTXMVoLxV6dTAZJ7C3j4y3sQWvu3AlgoUYbp5FlWcUhRysJZiK+5jfseEJvmMeAhfrInbgZy3BaexLwN9wDGfxtv0+qUl4GNHpVvwodZpLtB43E/AnLMPzSqn+guUEF7A9Qe3G0HiTx76c4C5WtAk/YlaWfFozrtf7EB7FjTFMTvAOs9tgjN+6LNkMhGy91gGcLBG8wpw2eAdrx0EQA3KmRHAFm9vgF0zHr4SkS6LoeHGC2dZM1+USQeh3KAHvwrk+kpzC/gQzFy9KBBF8lFyiD1iKlwWSJYizmtnGH2bddLppXPnjScL3TUU7EfKNrfCpPTiSTVqM+KW0mC4vilt6r8OHguhZMyExSWEVU7KurmFT3mnJ7BY00ow01cS7Zt3CID7XEgQuZAip0gPM939FeFf4Uqcf1fzRwos2YjVWtbf/QfuzOY83vVqsIaiRqIj5/wl+A2MwRxkhHnjuAAAAAElFTkSuQmCC"/ height="28px">
+
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAcFJREFUSEu11T+oT2EYwPHPLYUwyCIki0GRjKRkEJIuMYgsFDKIlAzyJxnUFQburTtYlEEU+TORQWajvyXCYjAoinCeen86vZ3znt8P92znff58n+d9/rxDJvgbmmD/ugCTsQXrsBQL8Atv8BT3cRPf2wItAdbjcnJaSvQV9uFBk1Ib4GQV6YkBru8njuBcbtMEOIXjAzivqx7ExfpBDtiI2wXnn3AYj/A26Y2ks/iNTFbhcc9HHTAdLzG7BfADi/E8k9cBIQr5kl7h64Ao1Ggh+mvYXpOvwQqsxfLMbhNuxVkdcAcbCoBjOJPkW3G9oDuOPTngPeYUjA7hQpJHMc8XdGNGluWAr5jynwCfq26amQO+YFoG+NiRVag/xOrMLnzNyAEvsDBT/IC5HTPxDvMynWdYlAOuVm26Y8AMYld9awjgSjUnu3LANkQrtn2DFLmxTSfhNea3EPoF/LmePIP4jw167x8AscpX4knPR9Oyi2V1oAHSTwan80XZBIizsd4k1kBdgLNVwY/mgZUenJ1pWmclozZAbIC9uNt0tV1P5lTsxub0NF5KTvZjuNqaNxAt+VdPZsd89SfuyqA/LwWt33YeVhnsaaE0AAAAAElFTkSuQmCC"/ height="28px">
+
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAW5JREFUSEu11T9IVlEYx/GPYOZgiEgULoJbk4TW0BgpiYto1K616CKItuYagpNOTQ4NVpCzOvknQidxVCERdHBwc3DQe+AOL2/39Z4jvgfOcs65z/d5znN+v9ugzqOhzvHdFdCEGYzg+W1J3gXQjE30YA/d9w2Yw1Qe9D1+3DfgCB0YxfeyHpZd0TP0oQVLOMEn/MZAttaFA2zgXxGsFqAN37I7Hq746DqDbeEUb/GoKuAXzFZDigAPsI3esvIL9l9gt3K9CDCWZ58a/wOWYyoI1/AqMfovvIvtwTnaEwETWIwFXKExEfAZX2MBZ3iSCAhiC6L7bxQ1eTWzgjeJgPCE+7EW0+TpWuWWQC8zIX6sVndRBU8zGzhG0EPq2MHLMh2E/QWMp0bHUGbfKzGA4D376EyA/CnSz21mF2QfTOxhBOQit5bDmCZXnnmN+Wy24ifWEZr5GIP5/IvJ3FWjnmlEwvFHyv4H8ZFqnKw74AYuPjMZIA0yawAAAABJRU5ErkJggg=="/ height="28px">
+                </div>
+                <p>Don't have an account? <a href="#">Sign Up</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

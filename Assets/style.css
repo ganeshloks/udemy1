@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+
+
+}
+
+.navbar {
+    background-color: white;
+    color: black;
+    box-shadow: 10px 10px 5px rgb(245, 244, 242);
+    cursor: pointer;
+    padding: 0.1rem;
+    flex: auto;
+    
+
+
+
+}
+
+.udemy-logo img {
+    max-width: 4.7rem;
+    height: 2.9rem;
+    display: block;
+    padding-left: 1rem;
+
+
+}
+
+.container {
+    max-width: 80%;
+
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 400px;
+    width: 600px;
+    margin: auto;
+
+
+}
+.d-flex{
+    margin: 0.8rem;
+    font-size: ;
+}
+
+.placeholder {
+    padding: 1rem;
+    border: 1px solid white;
+
+}
+
+.material-symbols-outlined {
+    float: inline-start;
+}
+
+.search-bar input {
+    width: 30%;
+    padding: 2px;
+    font-size: 16px;
+    border: none;
+    /* border-radius: 5px; */
+}
+
+.search-bar button {
+    width: 20%;
+    padding: 2px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: rgb(148, 144, 144);
+}
+
+
+
+
+.udemy-main-menu {
+    margin-top: 0.5rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+.u-main li {
+    display: inline;
+    font-size: 0.9rem;
+    /* padding: 0.5rem; */
+    font-weight: 700; 
+    margin-left:20px;
+}
+.u-main{
+    margin-top: 15px;
+    margin-left: -20px;
+}
+.u-main li a{
+    color: gray;
+    font-weight: 600;
+    transition: 0.4s;
+    font-size: 17px;
+    
+}
+.u-main li a:hover{
+    color: black;
+    font-size: 17px;
+}
+.u-main .signin a{
+    color: gray;
+}
+.u-main li i:hover{
+    color: blue;
+}
+
+.udemy-main-menu h2,li {
+    display: inline;
+    font-size: 1.2rem;
+    padding: 0rem;
+}
+h2 {
+    display: block;
+    font-size: 1.3em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    padding-inline-start: 15px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 15px;
+    unicode-bidi: isolate;
+}
+.p-font li{
+    font-size: 1.5rem;
+
+}
+
+.footer-container li {
+    display: flex;
+    font-size: 0.8rem;
+    padding: 0.6rem;
+
+}
+
+.login-class {
+    border: 1.9px gray solid;
+    margin: 4px;
+    padding: 7px;
+    background-color: white;
+    color: black;
+    font-size: 0.8rem;
+
+}
+
+.signin-class {
+    border: 1.5px grey solid;
+    margin: 4px;
+    padding: 8px;
+    background-color:white;
+    color: white;
+}
+.signin-class:hover{
+    color: black;
+
+}
+.udemy-main-menu li i{
+    font-size: 15px;
+}
+.fa-globe{
+    border: 1px solid black;
+    padding: 7.5px;
+}
+.fa-globe:hover{
+    background-color: #7d8086;
+}
+/* .login-class:hover{
+    background-color: #7d8086; */
+/* } */
+.udemy-main-menu :hover,
+.udemy-main-menu :active {
+    color: blue;
+
+}
+
+.ml-auto {
+
+    margin-left: auto;
+
+
+}
+
+
+.banner-content {
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://img-c.udemycdn.com/notices/web_carousel_slide/image/e6cc1a30-2dec-4dc5-b0f2-c5b656909d5b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    display: flex;
+    justify-content: left;
+
+
+
+}
+
+.side-content {
+    position: absolute;
+    box-shadow: 0 2px 4px rgba(117, 116, 116, 0.08), 0 4px 12px rgba(0, 0, 0, .08);
+    padding: 2.4rem;
+    cursor: pointer;
+}
+
+
+.cat li{
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding:0 40px;
+    margin-left: 10px;
+}
+.cat li a{
+    color: black;
+    transition: 0.4s;
+
+}
+.cat li a:hover{
+    color:blue;
+    font-size: 1rem;
+}
+
+
+
+.side-content {
+    width: 25rem;
+    left: 4.8rem;
+    margin-top: 4rem;
+}
+
+
+.next-page {
+    padding: 0, 4rem;
+}
+.next-page h2{
+    /* font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: 20px; */
+        font-family: var(--font-stack-heading-serif);
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 1.25;
+        letter-spacing: -.016rem;
+        max-width: 36em;
+    }
+    .next-page p{
+    color: #6a6f73;
+    margin-top: -1.5rem;
+    max-width: 96rem;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+    
+
+.sec-page {
+    font-size: 1.1rem;
+    padding: 0.2rem;
+}
+
+.curve-content {
+    background-color:rgb(228, 213, 213);
+    color: black;
+    padding: 1rem;
+    border-radius: 9.6rem;
+    display: inline block;
+    text-align: left;
+    display: inline-block;
+    height: 2.2rem;
+    border: none;
+    padding: 1rem;
+    margin: 1.3rem;
+    font-weight: 600;
+    font-size: 15px;
+}
+.curve-content h4{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.sec-page-topic {
+    font-size: 1.2rem;
+
+}
+
+.card {
+
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.176);
+    width: 22.33%;
+    display: inline block;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+}
+h4 {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.card-content{
+    font-size: 0.8rem;
+    padding: 0 1rem;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    color: #6a6f73;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem
+}
+
+.card-body {
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+.card-edit {
+    margin-bottom: -2rem;
+}
+.rating-sec{
+    display: flex;
+    gap: 0.6rem;
+    padding: 0 1rem;
+}
+.rate-star{
+    display: flex;
+    gap: 0.4rem;
+}
+.rating-sec .rating-no{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.stars i{
+    font-size: 0.8rem;
+    color: #b4690e;
+}
+.rate-count .innums{
+    font-size: 0.9rem;
+}
+.price{
+    padding: 1rem 1rem;
+}.price .price-co{
+    font-size: 1rem;
+    font-weight: 700;
+    color: black; 
+    
+}
+.card2 .price{
+    padding-bottom: 2.3rem;
+}
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+.price p{
+    font-size: 0.9rem;
+    color:green;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.price p:hover{
+    font-size: 1rem;
+}
+
+
+.brands-img {
+    
+    padding: 2rem;
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.trusted-brands-wrapper {
+    background-color: #f7f9fa;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: -1.8rem;
+}
+
+.trusted-brands {
+    max-width: 134rem;
+    margin: 0 auto;
+    padding: 6.4rem;
+    color: #6a6f73;
+
+}
+
+.trusted-brands .brands {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.trusted-brands .brands .brand-img {
+    width: 15rem;
+    height: 10rem;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* styling udemy business */
+.udemy-business {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.ub-logo {
+    width: 20rem;
+}
+
+.ub-promo-img {
+    width: 100%;
+    height: auto;
+}
+
+.ub-promo-img img {
+    max-width: 70%;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    /* padding-left: 2rem; */
+}
+.lg-h-font{
+    font-size: 1.8rem;
+}
+.p-font li{
+    display: block;
+    margin-bottom: 1rem;
+}
+.business-promo-content {
+    width: 25%;
+    margin-top: 0rem;
+    padding: 0 2rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.action-btns{
+    margin-top: 2rem;
+}
+
+.btn.reverse {
+    background: black;
+    color: white;
+}
+
+
+/* styling udemy instructor */
+.udemy-instructor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.u-instructor-container {
+    width: 40rem;
+    height: 26rem;
+}
+
+.u-instructor-container img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.instructor-content {
+    width: 40rem;
+    margin-left: 4rem;
+}
+
+
+.udemy-instructor {
+    flex-direction: column;
+}
+
+.instructor-content {
+    width: 100%;
+    margin-left: 0;
+    padding: 4rem;
+    text-align: center;
+}
+
+.action-btns button {
+    width: 100%;
+}
+.card-heading{
+    padding: 0 1rem;
+}
+.card-heading .heading-size{
+    font-size: 2rem;
+}
+.cad4 .price {
+    padding-bottom: 0.2rem;
+}
+
+
+footer {
+    background: #1c1d1f;
+    color: white;
+    padding: 2rem 3rem;
+    margin-top: 4rem;
+}
+
+footer ul li a {
+    color: white;
+    font-size: 1.4rem;
+    display: inline-block;
+    margin: .5rem 0;
+    font-weight: 300;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.button.lang-btn.lang-btn {
+    background: transparent;
+    border: 1px solid white;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 91px;
+    height: 34px;
+}
+
+
+.footer-container {
+    flex-direction: column-reverse;
+}
+
+.footer-2 {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.ufb-notice_notice-row__dsM4P{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ud-heading-lg span{
+    font-size: 1.1rem;
+    font-weight: 700;
+    flex: 1 1;
+    padding: 1.2rem 2.4rem 1.2rem 0;
+    line-height: 1.2;
+    letter-spacing: 0;
+}
+.ufb-notice_partner-logos__SEnVX img:not(:last-child) {
+    margin-right: 2.4rem;
+}
+
+
+.ufb-notice_partner-logos__SEnVX img {
+    margin: 1.2rem 0;
+    vertical-align: middle;
+}
+img, picture {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.footer-section-main{
+    margin-top: 3rem;
+}
+
+.language-selector-container{
+    float: right;
+}
+.ud-btn-medium {
+    font-size: 16px;
+    padding-right: 50px;
+    border: 1px solid white;
+    background: transparent;
+    color: #fff;
+}
+.ud-btn-medium .fa-globe{
+    border: none;
+    
+}
+.ud-unstyled-list .ud-text-sm{
+    display: flex;
+    font-size: 15px;
+}
+.commonlist{
+    display: flex;
+    line-height: 1.5;
+    padding-right: 6rem;
+}
+.commonlist ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.logo-and-copyright{
+    padding: 1.6rem 0;
+}
+.copyright-container{
+    float: right;
+}
